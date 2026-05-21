@@ -1,3 +1,4 @@
+import 'mysql2'; // Force Vercel to bundle mysql2 for Sequelize
 import mysql from 'mysql2/promise';
 import { Sequelize } from 'sequelize';
 import accountModel from '../accounts/account.model';
